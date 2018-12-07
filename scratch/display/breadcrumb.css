@@ -1,0 +1,17 @@
+ul.Breadcrumb {
+  padding-left: 0;
+  background-color: lightgrey;
+}
+
+ul.Breadcrumb li:first-child::before {
+  content: "";
+}
+
+ul.Breadcrumb li::before {
+  content: ">";
+}
+
+ul.Breadcrumb li {
+  display: inline;
+
+}
