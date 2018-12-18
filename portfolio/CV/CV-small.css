@@ -2,12 +2,13 @@ div.wrapper div.main p {
   font-size: 23px;
 }
 
-.img {
-  display: block;
-}
-
 div {
   border: 0px solid rgb(124, 114, 129);
+}
+
+#intro {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 /*.img {

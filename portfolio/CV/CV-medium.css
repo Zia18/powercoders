@@ -1,0 +1,12 @@
+#intro {
+  flex-direction: row;
+}
+
+#intro .col-1, #intro .col-2 {
+    width: 45%;
+}
+
+img {
+    width: 90%;
+    margin-left: 3em;
+}

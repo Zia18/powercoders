@@ -1,27 +1,35 @@
 * {
   box-sizing: border-box;
 }
+div {
+  border: 1px solid black;
+}
 
 body {
-    background-color: rgb(240, 240, 247);
-    margin: 4em;
-    font-family: 'Noto Serif JP', sans-serif;
-    font-size: 14px;
-    list-style-type: none;
+  background-color: rgb(240, 240, 247);
+  margin: 4px;
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 20px;
+  list-style-type: none;
 }
 
 .wrapper .main {
-  width: 60%;
   display: inline-block;
-  margin-left: 2em;
+  margin-left: 10px;
 }
 
-.img {
-  float: right;
-  border: 1px solid;
-  border-radius: 4px;
-  margin-right: 7em;
-  margin-top: 3em;
+.col-1.intro {
+    margin-left: 5em;
+}
+.col-2.img {
+  border: none;
+  border-radius: 1px;
+  margin-left: 5em;
+  margin-top: 1em;
+  width: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border
+
 }
 
 .wrapper .list {
@@ -29,45 +37,74 @@ body {
   margin-left: 4em;
 }
 
-.wrapper .img {
-  width: 15%;
-}
-
-
 .main {
-    /*margin: 10px;*/
-    padding: 20px;
-    border-radius: 5px;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 #Education ul {
-    /*list-style: none;*/
+  /*list-style: none;*/
 }
 
-.work experience ul, li, h3 {
-    font-family: 'Noto Serif JP', sans-serif;
-    font-size: 14px;
-    /*margin-left: 3em;*/
-    list-style-type: none;
+#experience ul li {
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 14px;
+  /*margin-left: 3em;*/
+  list-style-type: none;
+  color: #000;
+}
+/*#experience ul {
+  width: 70%;
+}*/
+
+#experience .heading {
+  color: #000;
+  font-size: 18px;
+  font-stretch: 100%;
+  font-weight: 700;
+}
+
+#experience .date {
+font-size: 13px;
+}
+
+#experience .place {
+font-size: 12px;
+color: #666766;
+float: right;
+padding-bottom: 3px;
+}
+
+#experience .name {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#experience .des {
+font-size: 12px;
+color: #666766;
+font-style: italic;
+margin-bottom: 16px;
 }
 
 div#education ul li, div#interests p, div#experience ul li, div#skills ul li,
- div#organization ul li, div#languages ul li, div#project ul li, div#info li {
-    font-size: 15px;
-    color: rgb(17, 18, 18);
+div#organization ul li, div#languages ul li, div#project ul li, div#info li {
+  font-size: 20px;
+  color: none;
 }
 
 div#interests p {
   margin-left: 2em;
 }
 
-div#education ul li:nth-child(n+4) {
+div#education ul li:nth-child(1+4) {
   font-weight: bold;
 }
 
 h2 {
   text-transform: uppercase;
   font-weight: bold;
+  color: #479099;
 }
 h3 {
   text-transform: uppercase;
@@ -75,8 +112,23 @@ h3 {
 }
 
 section {
-    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
-    background: white;
-    width: 200px;
-    height: 100px;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  background: white;
+  width: 200px;
+  height: 100px;
+}
+
+span.personal-info {
+  display: inline-block;
+  width: 12em;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#info ul li a {
+  text-decoration: none;
+}
+
+#info ul li a:hover {
+  color: black;
 }
