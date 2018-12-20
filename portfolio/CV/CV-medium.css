@@ -2,8 +2,8 @@
   flex-direction: row;
 }
 
-#intro .col-1, #intro .col-2 {
-    width: 45%;
+#intro .col-1,  {
+    width: 70%;
 }
 
 img {

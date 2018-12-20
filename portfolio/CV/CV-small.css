@@ -10,9 +10,3 @@ div {
   display: flex;
   flex-direction: column-reverse;
 }
-
-/*.img {
-  position: absolute;
-  top: 0px;
-  left: 30%;
-}*/
