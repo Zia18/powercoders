@@ -1,0 +1,52 @@
+body {
+  position: relative;
+}
+
+div {
+    background-color: wight;
+    border: none;
+    padding: .5em;
+    width: 47%;
+}
+
+#header {
+  margin: 1em;
+}
+
+#Ingredients {
+  margin: 1em;
+  position: absolute;
+  left: 1em;
+  min-height: 50vh;
+  }
+
+#Introduction {
+  position: absolute;
+  right: 1em;
+  min-height: 50vh;
+  top: 0px;
+}
+
+p {
+  font-family: 'PT Mono', monospace;
+}
+ul {
+  font-family: 'Noto Serif', serif;
+}
+
+span.show {
+    display: inline-block;
+    widows: 1em;
+}
+
+span.hide {
+    display: none;
+}
+
+ul.show {
+    display: block;
+}
+
+ul.hide {
+    display: none;
+}

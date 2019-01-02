@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(128, 140, 113)
+
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Crete Round', serif;
+color: black;
+
+}
+p {
+  font-family: 'Crete Round', serif;
+}
+ul {
+  font-family: 'Oswald', sans-serif;
+}
