@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
     document.getElementById('make-tip').addEventListener('click', function (event) {
       setClass('tip');
   });
-    
+
     document.getElementById('make-normal').addEventListener('click', function (event) {
       setClass('');
   });
