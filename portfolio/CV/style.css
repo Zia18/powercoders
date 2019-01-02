@@ -67,7 +67,6 @@ body {
 #experience .heading, #education .heading {
   color: #000;
   font-size: 18px;
-  font-stretch: 100%;
   font-weight: 700;
 }
 
@@ -85,7 +84,6 @@ padding-bottom: 3px;
 #experience .name, #education .name {
   font-size: 18px;
   font-weight: 400;
-  font-stretch: 100%;
   color: #000;
 }
 
@@ -103,7 +101,6 @@ margin-bottom: 16px;
 div#education ul li, div#interests p, div#experience ul li, div#skills ul li,
 div#organization ul li, div#languages ul li, div#project ul li, div#info li {
   font-size: 20px;
-  color: none;
   list-style: none;
 }
 

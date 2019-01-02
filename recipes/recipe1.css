@@ -3,7 +3,7 @@ body {
 }
 
 div {
-    background-color: wight;
+    background-color: white;
     border: none;
     padding: .5em;
     width: 47%;
@@ -36,7 +36,7 @@ ul {
 
 span.show {
     display: inline-block;
-    widows: 1em;
+    
 }
 
 span.hide {

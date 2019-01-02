@@ -1,11 +1,9 @@
 body {
   background-color: rgb(212, 218, 204);
-  float: center;
 }
 
 .new {
   color: blue;
-  float-center: 50%;
  }
  img {
   width: 540px;
@@ -17,9 +15,7 @@ h1, h2, h3, h4 {
   color: black;
 
 }
-p {
-  ont-family: 'Merriweather', serif;
-}
+
 ul {
   font-family: 'Roboto Condensed', sans-serif;
 }
