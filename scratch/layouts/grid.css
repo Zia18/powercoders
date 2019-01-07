@@ -1,0 +1,13 @@
+#content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(130px, auto);
+  grid-gap: 10px;
+  max-width: 930px;
+  margin: 0 auto;
+}
+
+#content > *{
+  background: #3bbced;
+  padding: 28px;
+}
