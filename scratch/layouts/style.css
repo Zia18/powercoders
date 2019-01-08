@@ -19,7 +19,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  color:  #86592d;
+  color: #86592d;
   font-size: 30px;
 }
 
@@ -59,25 +59,26 @@ img {
   grid-row: 7/ 12;
   border-top: 3px solid #39ac39;
   text-align: justify;
-  color:  #86592d;
+  color: #86592d;
 }
 
 .content-2 {
   grid-column: 3/ 7;
   grid-row: 11/ 17;
   text-align: justify;
-  color:  #86592d;
+  color: #86592d;
 
 }
+
 .content-3 {
   grid-column: 3/ 7;
   grid-row: 16/ 22;
   text-align: justify;
-  color:  #86592d;
+  color: #86592d;
 }
 
 .heading {
-  background-color:  #e7e7e4;
+  background-color: #e7e7e4;
   padding: 2px;
   box-decoration-break: clone;
   border-radius: 4px;
@@ -102,5 +103,5 @@ img {
 }
 
 
-
-.footer {}
+.footer {
+}

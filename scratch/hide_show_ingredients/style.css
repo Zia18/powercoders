@@ -1,8 +1,8 @@
 span.show {
-    display: inline-block;
-    width: 1em;
+  display: inline-block;
+  width: 1em;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }

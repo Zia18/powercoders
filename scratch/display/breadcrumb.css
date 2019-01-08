@@ -6,14 +6,14 @@ ul.Breadcrumb {
 @media screen and (min-width: 600px) {
   ul.Breadcrumb li {
     display: inline;
- }
+  }
 
- ul.Breadcrumb li::before {
-  content: " > ";
- }
+  ul.Breadcrumb li::before {
+    content: " > ";
+  }
 
- ul.Breadcrumb li:first-child::before {
-   content: "";
+  ul.Breadcrumb li:first-child::before {
+    content: "";
   }
 }
 

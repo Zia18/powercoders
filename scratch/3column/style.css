@@ -18,6 +18,7 @@ div {
   min-height: 50vh;
   width: calc(100% - 37em);
 }
+
 #secoundary {
   position: absolute;
   left: 1em;
