@@ -1,25 +1,28 @@
 document.addEventListener('DOMContentLoaded', function (event) {
-    document.getElementById('item').focus();
+  let inputBox = document.getElementById('item');
+  let shoppingList = document.querySelector('ul');
+
   document.querySelector('button').addEventListener('click', function (event) {
-    let inputBox = document.getElementById('item');
-    let li = createNewListItem(inputBox.value);
-    document.querySelector('ul').appendChild(li);
-    inputBox.value = '';
+    if (inputBox.value.trim() !== '') {
+      shoppingList.appendChild(createNewListItem(inputBox.value.trim()));
+      inputBox.value = '';
+    }
+    inputBox.focus();
   });
-});
 
-document.addEventListener('keyup', function (event) {
-  if (event.key === 'Enter') {
-    let inputBox = document.getElementById('item');
-    let li = createNewListItem(inputBox.value);
-    document.querySelector('ul').appendChild(li);
-    inputBox.value = '';
+  inputBox.addEventListener('keyup', function (event) {
+    if (event.key === 'Enter') {
+      if (inputBox.value.trim() !== '') {
+          shoppingList.appendChild(createNewListItem(inputBox.value.trim()));
+          inputBox.value = '';
+        }
+      }
+  });
 
-  }
+  inputBox.focus();
 });
 
 function createNewListItem(itemText) {
-  console.log(itemText);
   let li = document.createElement('li');
   let span = document.createElement('span');
   let spanText = document.createTextNode(itemText);
@@ -27,9 +30,11 @@ function createNewListItem(itemText) {
   li.appendChild(span);
 
   let button = document.createElement('button');
+  document.getElementById('item').focus();
   let text = document.createTextNode('delete');
   button.addEventListener('click', function (event) {
     li.remove();
+    document.getElementById('item').focus();
   });
 
   button.appendChild(text);

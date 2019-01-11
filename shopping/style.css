@@ -1,4 +1,29 @@
 .button {
-    background-color: #8a8c91;
-    padding: 3px;
+  background-color: #8a8c91;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+ul li button {
+  border-radius: 10px;
+  background-color: #8a8c91;
+  margin: 10px;
+}
+
+.body {
+  background-color: bisque;
+}
+
+ul {
+  list-style: none;
+}
+
+
+input {
+  background-color: darkgrey;
+}
+
+h1 {
+  font-family: 'aril', sans-serif;
+  text-align: center;
 }
