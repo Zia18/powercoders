@@ -4,6 +4,10 @@
   border-radius: 10px;
 }
 
+button {
+  background-color: black;
+}
+
 ul li button {
   border-radius: 10px;
   background-color: #8a8c91;
