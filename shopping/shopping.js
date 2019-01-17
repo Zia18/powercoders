@@ -25,7 +25,6 @@ document.addEventListener('DOMContentLoaded', function (event) {
       return;
     }
 
-
     shoppingList.appendChild(createNewListItem(trimmedValue));
     inputBox.value = '';
     addItemButton.disabled = true;
@@ -33,6 +32,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
   addItemButton.disabled = true;
   inputBox.focus();
+
 });
 
 /**

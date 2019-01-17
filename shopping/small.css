@@ -1,0 +1,15 @@
+body{
+  min-width: 100px;
+  max-width: 200px;
+}
+label {
+  position: absolute;
+  align-content: center;
+  display: inline-block;
+}
+
+#item {
+  position: absolute;
+  align-content: center;
+
+}

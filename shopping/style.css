@@ -1,33 +1,48 @@
-.button {
-  background-color: #8a8c91;
-  padding: 3px;
-  border-radius: 10px;
+.body {
+  width: 2000px;
+  display: inline-block;
+  margin: 0px auto;
 }
 
 button {
-  background-color: black;
+  background: transparent;
+  border: none;
+  color: #1DA1F2;
 }
 
-ul li button {
-  border-radius: 10px;
-  background-color: #8a8c91;
+ul, li {
+  color: white;
+  margin: 10px;
+  border-color: white;
+  color: white;
+}
+
+.fa-trash {
+  color: red;
   margin: 10px;
 }
 
 .body {
-  background-color: bisque;
+  background-color: gray;
+}
+
+label {
+  color: white;
+  font-family: 'Patua One', cursive;
 }
 
 ul {
   list-style: none;
+  font-family: 'Patua One', cursive;
 }
-
 
 input {
   background-color: darkgrey;
 }
 
 h1 {
-  font-family: 'aril', sans-serif;
-  text-align: center;
+  font-family: 'Itim', cursive;
+  margin-right: 1em;
+  margin-bottom: 0.2;
+  color: white;
 }
