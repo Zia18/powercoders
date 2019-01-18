@@ -2,14 +2,26 @@ document.addEventListener('DOMContentLoaded', function (event) {
   const inputBox = document.getElementById('item');
   const shoppingList = document.querySelector('ul');
   const addItemButton = document.querySelector('button');
+  const deleteAll = document.getElementById('clear');
+
+
+  deleteAll.addEventListener('click', function (event) {
+    const listItem = document.querySelectorAll('li');
+    listItem.forEach(function (el) {
+      el.remove();
+      inputBox.focus();
+      deleteAll.disabled = false;
+    });
+    deleteAll.disabled = true;
+  });
 
   addItemButton.addEventListener('click', function (event) {
     const trimmedValue = inputBox.value.trim();
 
-
     shoppingList.appendChild(createNewListItem(trimmedValue));
     inputBox.value = '';
     addItemButton.disabled = true;
+    deleteAll.disabled = false;
     inputBox.focus();
   });
 
@@ -28,10 +40,12 @@ document.addEventListener('DOMContentLoaded', function (event) {
     shoppingList.appendChild(createNewListItem(trimmedValue));
     inputBox.value = '';
     addItemButton.disabled = true;
+    deleteAll.disabled = false;
   });
 
   addItemButton.disabled = true;
   inputBox.focus();
+  deleteAll.disabled = true;
 
 });
 
@@ -58,5 +72,3 @@ function createNewListItem(itemText) {
   });
   return li;
 }
-
-

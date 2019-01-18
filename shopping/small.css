@@ -1,15 +1,17 @@
-body{
-  min-width: 100px;
-  max-width: 200px;
+
+@media screen and (max-width: 1400px) {
+.body {
+  width: 100%;
+  max-width: 998px;
 }
+
 label {
-  position: absolute;
-  align-content: center;
-  display: inline-block;
+     width: 100%;
+   }
+input {
+    width: 100%;
+  }
+#img {
+  width: 100%;
 }
-
-#item {
-  position: absolute;
-  align-content: center;
-
 }
