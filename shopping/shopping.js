@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function (event) {
   const addItemButton = document.querySelector('button');
   const deleteAll = document.getElementById('clear');
 
-
   deleteAll.addEventListener('click', function (event) {
     const listItem = document.querySelectorAll('li');
     listItem.forEach(function (el) {
@@ -46,7 +45,6 @@ document.addEventListener('DOMContentLoaded', function (event) {
   addItemButton.disabled = true;
   inputBox.focus();
   deleteAll.disabled = true;
-
 });
 
 /**
@@ -68,6 +66,9 @@ function createNewListItem(itemText) {
   document.getElementById('item').focus();
   icon.addEventListener('click', function (event) {
     li.remove();
+    document.getElementById('clear').disabled =
+        document.querySelectorAll('li').length === 0;
+
     document.getElementById('item').focus();
   });
   return li;
