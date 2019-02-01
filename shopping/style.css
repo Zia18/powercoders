@@ -45,6 +45,14 @@ ul, li {
   background-color: white;
 }
 
+#quantity {
+  width: 14%;
+}
+
+#item {
+  width: 23%;
+}
+
 label {
   color: black;
   font-family: 'Patua One', cursive;

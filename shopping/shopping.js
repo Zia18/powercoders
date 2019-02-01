@@ -1,3 +1,15 @@
+/**
+ *Represents an item in the Shopping list.
+ *
+ * @param name {string} Name of the item
+ * @param quantity {string} Quantity of the item
+ * @constructor
+ */
+function ShoppingListItem(name, quantity) {
+  this.name = name;
+  this.quantity = quantity;
+}
+
 function domContentLoaded() {
   const inputBox = document.getElementById('item');
   const quantityBox = document.getElementById('quantity');
@@ -20,12 +32,9 @@ function domContentLoaded() {
     const trimmedValue = inputBox.value.trim();
     const quantityEl = quantityBox.value.trim();
 
-    const item = {
-      name: trimmedValue,
-      quantity: quantityEl
-    };
-    shoppingList.appendChild(createNewListItem(item));
+    const item = new ShoppingListItem(trimmedValue, quantityEl);
 
+    shoppingList.appendChild(createNewListItem(item));
     inputBox.value = '';
     quantityBox.value = '';
     addItemButton.disabled = true;
@@ -46,10 +55,7 @@ function domContentLoaded() {
       return;
     }
 
-    const item = {
-      name: trimmedValue,
-      quantity: quantityEl
-    };
+    const item = new ShoppingListItem(trimmedValue, quantityEl);
 
     shoppingList.appendChild(createNewListItem(item));
 
@@ -73,10 +79,7 @@ function domContentLoaded() {
       return;
     }
 
-    const item = {
-      name: trimmedValue,
-      quantity: quantityEl
-    };
+    const item = new ShoppingListItem(trimmedValue, quantityEl);
 
     shoppingList.appendChild(createNewListItem(item));
 
@@ -100,11 +103,10 @@ if (document.readyState === 'loading') {
 } else {
   domContentLoaded();
 }
-
 /**
  * Creates and returns an 'li' element for inclusion in the shopping list.
  *
- * @param {{name: string,quantity: string}} item Item to append to the list
+ * @param {ShoppingListItem} item Item to append to the list
  * @return {HTMLElement} li element
  */
 function createNewListItem(item) {
