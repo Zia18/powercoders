@@ -34,7 +34,7 @@ function domContentLoaded() {
 
     const item = new ShoppingListItem(trimmedValue, quantityEl);
 
-    shoppingList.appendChild(createNewListItem(item));
+    shoppingList.appendChild(item.toListItem());
     inputBox.value = '';
     quantityBox.value = '';
     addItemButton.disabled = true;
@@ -57,7 +57,7 @@ function domContentLoaded() {
 
     const item = new ShoppingListItem(trimmedValue, quantityEl);
 
-    shoppingList.appendChild(createNewListItem(item));
+    shoppingList.appendChild(item.toListItem());
 
     inputBox.value = '';
     addItemButton.disabled = true;
@@ -81,7 +81,7 @@ function domContentLoaded() {
 
     const item = new ShoppingListItem(trimmedValue, quantityEl);
 
-    shoppingList.appendChild(createNewListItem(item));
+    shoppingList.appendChild(item.toListItem());
 
     inputBox.value = '';
     addItemButton.disabled = true;
@@ -106,21 +106,20 @@ if (document.readyState === 'loading') {
 /**
  * Creates and returns an 'li' element for inclusion in the shopping list.
  *
- * @param {ShoppingListItem} item Item to append to the list
  * @return {HTMLElement} li element
  */
-function createNewListItem(item) {
+ShoppingListItem.prototype.toListItem = function() {
   const li = document.createElement('li');
   const span = document.createElement('span');
-  const spanText = document.createTextNode(item.name);
+  const spanText = document.createTextNode(this.name);
   span.appendChild(spanText);
   li.appendChild(span);
 
-  if (item.quantity !== '') {
+  if (this.quantity !== '') {
     li.appendChild(document.createTextNode(' '));
     const quantityText = document.createElement('span');
     quantityText.className = 'quantityText';
-    quantityText.textContent = '(' + item.quantity + ')';
+    quantityText.textContent = '(' + this.quantity + ')';
     li.appendChild(quantityText);
   }
 
@@ -134,4 +133,4 @@ function createNewListItem(item) {
     document.getElementById('item').focus();
   });
   return li;
-}
+};
