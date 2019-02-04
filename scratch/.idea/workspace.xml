@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4219c142-25ec-4a7d-9ef0-55db5a1a12c9" name="Default Changelist" comment="Alli scratch documents reformated!">
+      <change afterPath="$PROJECT_DIR$/../shopping/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping/.idea/shopping.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cheatsheed/git.css" beforeDir="false" afterPath="$PROJECT_DIR$/../cheatsheed/git.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cheatsheed/git.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cheatsheed/git.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cheatsheed/html.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cheatsheed/html.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cheatsheed/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cheatsheed/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cheatsheed/shell.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cheatsheed/shell.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/CV/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/CV/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/CV/CV-large.css" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/CV/CV-large.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/CV/CV-medium.css" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/CV/CV-medium.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/CV/CV.html" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/CV/CV.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/CV/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/CV/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recipes/recipe1.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recipes/recipe1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recipes/recipe1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../recipes/recipe1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recipes/recipe1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../recipes/recipe1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recipes/recipe2.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recipes/recipe2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recipes/recipe2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../recipes/recipe2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recipes/recipe3.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recipes/recipe3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recipes/recipe3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../recipes/recipe3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../shopping/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping/shopping.js" beforeDir="false" afterPath="$PROJECT_DIR$/../shopping/shopping.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../shopping/style.css" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="729" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4219c142-25ec-4a7d-9ef0-55db5a1a12c9" name="Default Changelist" comment="" />
+      <created>1546982397789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546982397789</updated>
+      <workItem from="1546982399414" duration="240000" />
+      <workItem from="1547048018873" duration="99000" />
+      <workItem from="1547102018352" duration="176000" />
+      <workItem from="1547108120287" duration="535000" />
+      <workItem from="1547109214595" duration="12000" />
+    </task>
+    <task id="LOCAL-00001" summary="Alli scratch documents reformated!">
+      <created>1546982496914</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546982496914</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1062000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="729" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2494043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49960285" weight="0.32810047" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.32810047" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Alli scratch documents reformated!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alli scratch documents reformated!" />
+  </component>
+</project>

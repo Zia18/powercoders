@@ -1,0 +1,16 @@
+Line 1 calls for addEventListener method on DOM object in the global and has two parameters.
+Line 2 declare inBox variable and calls by getElementById method, and 'item' assigned for inBox bariable.
+Line 3 declare shoppingList variable and call querySelector method and ul assigned for shoppingList.
+Line 4 the same like line 3.
+Line 6 calls for addEventListener in DOM object in the global and take two parameters.
+Line 7 is an if function which we use for if and else and true and false.
+        and Trim() removes white space in inputBox variable. !== '') is not equal to.
+Line 8 use false and true , and in this line button.disabled is true.
+Line 9
+Line 10 inputBox variable assign to empty string.
+Line 12 used focus for inputBox variable.
+Line 15 inputBox variable use addEventListener method and has two parameters.
+        'keyup' event occurs when user release a key in keyboard.
+Line 16 is the same like line 7.
+Line 17 is also the same like line 8.
+Line 18

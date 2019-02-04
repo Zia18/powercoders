@@ -1,14 +1,45 @@
 /**
- *Represents an item in the Shopping list.
- *
- * @param name {string} Name of the item
- * @param quantity {string} Quantity of the item
- * @constructor
+ * Represents an item in the Shopping list.
  */
-function ShoppingListItem(name, quantity) {
-  this.name = name;
-  this.quantity = quantity;
+class ShoppingListItem {
+  constructor(name, quantity) {
+    this.name = name;
+    this.quantity = quantity;
+  }
+  /**
+   * @param name {string} Name
+   * @param quantity {string} Quantity
+   */
+  toListItem() {
+    const li = document.createElement('li');
+    const span = document.createElement('span');
+    const spanText = document.createTextNode(this.name);
+    span.appendChild(spanText);
+    li.appendChild(span);
+
+    if (this.quantity !== '') {
+      li.appendChild(document.createTextNode(' '));
+      const quantityText = document.createElement('span');
+      quantityText.className = 'quantityText';
+      quantityText.textContent = '(' + this.quantity + ')';
+      li.appendChild(quantityText);
+    }
+
+    const icon = document.createElement('i');
+    li.appendChild(icon).className = 'fas fa-trash';
+    document.getElementById('item').focus();
+    icon.addEventListener('click', function () {
+      li.remove();
+      document.getElementById('clear').disabled =
+          document.querySelectorAll('li').length === 0;
+      document.getElementById('item').focus();
+    });
+    return li;
+  }
+
+
 }
+
 
 function domContentLoaded() {
   const inputBox = document.getElementById('item');
@@ -17,7 +48,7 @@ function domContentLoaded() {
   const addItemButton = document.querySelector('button');
   const deleteAll = document.getElementById('clear');
 
-  deleteAll.addEventListener('click', function (event) {
+  deleteAll.addEventListener('click', function () {
     const listItem = document.querySelectorAll('li');
     listItem.forEach(function (el) {
       el.remove();
@@ -28,7 +59,7 @@ function domContentLoaded() {
     deleteAll.disabled = true;
   });
 
-  addItemButton.addEventListener('click', function (event) {
+  addItemButton.addEventListener('click', function () {
     const trimmedValue = inputBox.value.trim();
     const quantityEl = quantityBox.value.trim();
 
@@ -97,40 +128,9 @@ function domContentLoaded() {
 }
 
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', function (event) {
+  document.addEventListener('DOMContentLoaded', function () {
     domContentLoaded();
   });
 } else {
   domContentLoaded();
 }
-/**
- * Creates and returns an 'li' element for inclusion in the shopping list.
- *
- * @return {HTMLElement} li element
- */
-ShoppingListItem.prototype.toListItem = function () {
-  const li = document.createElement('li');
-  const span = document.createElement('span');
-  const spanText = document.createTextNode(this.name);
-  span.appendChild(spanText);
-  li.appendChild(span);
-
-  if (this.quantity !== '') {
-    li.appendChild(document.createTextNode(' '));
-    const quantityText = document.createElement('span');
-    quantityText.className = 'quantityText';
-    quantityText.textContent = '(' + this.quantity + ')';
-    li.appendChild(quantityText);
-  }
-
-  const icon = document.createElement('i');
-  li.appendChild(icon).className = 'fas fa-trash';
-  document.getElementById('item').focus();
-  icon.addEventListener('click', function (event) {
-    li.remove();
-    document.getElementById('clear').disabled =
-        document.querySelectorAll('li').length === 0;
-    document.getElementById('item').focus();
-  });
-  return li;
-};

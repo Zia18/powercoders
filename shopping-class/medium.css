@@ -1,0 +1,18 @@
+.body{
+  width: 2000px;
+}
+
+@media screen and (max-width: 1999) {
+  .body {
+      width: 100%;
+    }
+
+   label {
+     70%;
+   }
+  input {
+    30%;
+  }
+
+
+}

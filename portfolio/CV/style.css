@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   text-decoration: none;
-
 }
 
 body {
@@ -15,34 +14,32 @@ body {
 .wrapper .main {
   display: inline-block;
   width: 100%;
-  border:1px solid black;
+  border: 1px solid black;
 }
 
 #intro {
-  border:5px solid black;
   height: 400px;
 }
 
 #intro .col-1 {
-    position: absolute;
-    top:0;
-    right: 4em;
-    width:70%;
-    height: 300px;
-    border:1px solid black;
+  position: absolute;
+  top: 0;
+  right: 6em;
+  left: ;
+  width: 70%;
+  height: 300px;
 }
 
 .col-2 {
-  border: 2px solid red;
   width: 20%;
+  height: 6em;
 }
 
 .col-2 .img {
   position: relative;
-  left: 0;
-  top: 1em;
+  right: 2em;
+
   width: 40%;
-  border: 3px solid green;
 }
 
 .wrapper .list {
@@ -63,7 +60,6 @@ body {
   color: #000;
 }
 
-
 #experience .heading, #education .heading {
   color: #000;
   font-size: 18px;
@@ -71,14 +67,14 @@ body {
 }
 
 #experience .date, #education .date {
-font-size: 13px;
+  font-size: 13px;
 }
 
 #experience .place, #education .place {
-font-size: 12px;
-color: #666766;
-float: right;
-padding-bottom: 3px;
+  font-size: 12px;
+  color: #666766;
+  float: right;
+  padding-bottom: 3px;
 }
 
 #experience .name, #education .name {
@@ -88,10 +84,10 @@ padding-bottom: 3px;
 }
 
 #experience .des, #education .des {
-font-size: 12px;
-color: #666766;
-font-style: italic;
-margin-bottom: 16px;
+  font-size: 12px;
+  color: #666766;
+  font-style: italic;
+  margin-bottom: 16px;
 }
 
 #education ul {
@@ -118,13 +114,14 @@ h2 {
   font-weight: bold;
   color: #479099;
 }
+
 h3 {
   text-transform: uppercase;
   font-weight: bold;
 }
 
 section {
-  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   background: white;
   width: 200px;
   height: 100px;

@@ -1,0 +1,17 @@
+
+@media screen and (max-width: 1400px) {
+.body {
+  width: 100%;
+  max-width: 998px;
+}
+
+label {
+     width: 100%;
+   }
+input {
+    width: 100%;
+  }
+#img {
+  width: 100%;
+}
+}

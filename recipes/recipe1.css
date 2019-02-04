@@ -3,10 +3,10 @@ body {
 }
 
 div {
-    background-color: white;
-    border: none;
-    padding: .5em;
-    width: 47%;
+  background-color: white;
+  border: none;
+  padding: .5em;
+  width: 47%;
 }
 
 #header {
@@ -18,7 +18,7 @@ div {
   position: absolute;
   left: 1em;
   min-height: 50vh;
-  }
+}
 
 #Introduction {
   position: absolute;
@@ -30,23 +30,24 @@ div {
 p {
   font-family: 'PT Mono', monospace;
 }
+
 ul {
   font-family: 'Noto Serif', serif;
 }
 
 span.show {
-    display: inline-block;
-    
+  display: inline-block;
+
 }
 
 span.hide {
-    display: none;
+  display: none;
 }
 
 ul.show {
-    display: block;
+  display: block;
 }
 
 ul.hide {
-    display: none;
+  display: none;
 }

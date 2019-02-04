@@ -9,3 +9,10 @@ div {
   display: flex;
   flex-direction: column-reverse;
 }
+
+.col-2 {
+  margin-left: 20em;
+  margin-bottom: 16.5em;
+  width: 47%;
+  top: 0em;
+}
