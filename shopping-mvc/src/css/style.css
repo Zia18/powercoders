@@ -1,0 +1,77 @@
+.body {
+  width: 100%;
+  margin: 0px auto;
+}
+
+#img {
+  width: 100%;
+  height: 10em;
+}
+
+#clear {
+  background-color: #1DA1F2;
+  border-radius: 5px;
+  color: white;
+  margin-top: 1em;
+}
+
+button:disabled {
+  color: red;
+}
+
+button {
+  background: transparent;
+  border: none;
+  color: midnightblue;
+}
+
+button:disabled{
+  color: #1DA1F2;
+}
+
+ul, li {
+  color: white;
+  margin: 10px;
+  border-color: black;
+  color: black;
+}
+
+.fa-trash {
+  color: red;
+  margin: 10px;
+}
+
+.body {
+  background-color: white;
+}
+
+#quantity {
+  width: 14%;
+}
+
+#item {
+  width: 23%;
+}
+
+label {
+  color: black;
+  font-family: 'Patua One', cursive;
+  padding-left: 3em;
+}
+
+ul {
+  list-style: none;
+  font-family: 'Patua One', cursive;
+}
+
+input {
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Itim', cursive;
+  margin-right: 1em;
+  margin-bottom: 0.2;
+  color: black;
+  padding-left: 2em;
+}
