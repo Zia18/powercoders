@@ -20,14 +20,11 @@ class ShoppingListItem {
     }
 
     const icon = document.createElement('i');
-    li.appendChild(icon).className = 'fas fa-trash';
-    document.getElementById('item').focus();
-    icon.addEventListener('click', function () {
-      li.remove();
-      document.getElementById('clear').disabled =
-          document.querySelectorAll('li').length === 0;
-      document.getElementById('item').focus();
-    });
+    icon.className = 'fas fa-trash';
+    const deleteButton = document.createElement('button');
+    deleteButton.appendChild(icon);
+    li.appendChild(deleteButton);
+
     return li;
   }
-};
+}

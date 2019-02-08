@@ -18,4 +18,21 @@ class Controller {
     const item = new ShoppingListItem(name, quantity);
     this.model_.append(item);
   }
+
+  /**
+   * Delete the i' the item from the list.
+   *
+   * @pram i {number}
+   *
+   */
+  deleteItem(i) {
+    this.model_.delete(i);
+  }
+
+  /**
+   * Clear the shopping list.
+   */
+  clearList() {
+    this.model_.clear();
+  }
 }
