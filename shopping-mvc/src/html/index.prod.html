@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/small.css"
+          media="screen (min-width: 1400px)">
+    <link rel="stylesheet" href="../css/medium.css"
+          media="screen  (min-width: 1300px) and (max-width: 960px)">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Itim|Patua+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="shopping.min.js"></script>
+
+    <title>shopping</title>
+  </head>
+
+  <body class="body">
+    <header>
+      <img id="img" src="../static/shopping.jpg">
+      <h1>My shopping list</h1>
+
+    </header>
+
+    <!-- Controls to add new items go here -->
+    <div>
+      <label for="item">Write a new item:</label>
+      <input type="text" id="item"
+             placeholder="Type something to buy">
+      ‍‍‍‍‍ <input type="text" id="quantity"
+                   placeholder="Type quantity">
+
+      <button id="add"><i class="fas fa-cart-plus fa-2x"></i></button>
+      <button id="clear">Delete All</button>
+    </div>
+
+    <ul>
+    </ul>
+  </body>
+</html>
