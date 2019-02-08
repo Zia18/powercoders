@@ -12,6 +12,7 @@
     "grunt": "^1.0.3"
   },
   "devDependencies": {
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-uglify-es": "^3.3.0"
   }
 }
